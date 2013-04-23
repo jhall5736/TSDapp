@@ -1,0 +1,1880 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+body {
+  background-color: #FFF;
+}
+</style>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body bgcolor="#E3E9EF"> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1 class="ui-btn-inline">Welcome to Trinity Saint David</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">About</a></li>
+            <li><a href="#page3">In the News</a></li>
+			<li><a href="#page4">Calendar/Events</a> 	            <li><a href="#page5">Pictures and Videos </a></li>
+            <li><a href="#page6">Maps</a></li>
+            <li><a href="#page7">Media</a></li>
+            <li><a href="#page8">Departments and Faculties</a></li>
+            <li><a href="#page9">Contacts</a></li>
+            <li><a href="#page10">Student Info and Services</a></li>
+            <li><a href="#page11">Transportation</a></li>
+            <li><a href="#page12">University Open Days Announcements</a></li>
+            
+		</ul>		
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>About TSD</h1>
+	</div>
+	<div data-role="content">
+    <li><a href="#pageCarmarthen">About Carmarthen</a></li>	
+    <li><a href="#pageLampeter">About Lampeter</a></li>	
+    <li><a href="#pageVCWelcome">Vice-Chancellor's Welcome</a></li>	
+    <a href="#page">Return</a></div>
+	</div>
+</div>
+
+<div data-role="page" id="pageVCWelcome">
+	<div data-role="header">
+		<h1>Vice-Chancellor's Welcome</h1>
+	</div>
+	<div data-role="content">
+	  <p>The creation of a new university is an exciting challenge and presents an opportunity to build upon the excellent contribution that those institutions made to the nation over three centuries.</p>
+      <p>We are proud of our heritage but we also look to our future by creating a radical new model for education linking to further education colleges and schools to create greater opportunities for participation and access across south-west Wales.</p>
+      <p>The University has secured a multimillion pound government investment which is being reinvested to provide an environment befitting twenty-first century learning, teaching and scholarship.</p>
+      <p>Both of our campuses, Carmarthen and Lampeter, offer an enriching environment with everything that our students need for their academic and personal development.</p>
+      <p>We also offer a range of programmes for students who study at our partner institutions and make every effort to ensure the quality of the experience for all of our students.</p>
+      <p>We acknowledge that you are making a considerable investment in your future. It is a decision that we take seriously, and will make every effort to ensure that your experience as a student here will help you to develop your potential to the full.</p>
+      <p> We will provide you with sound academic knowledge, but we also believe that the rich diversity of cultural and social experiences you will have as a student here will help you to develop a range of personal and professional qualities - these are both equally important considerations when choosing a university or college.</p>
+      <p>I look forward to welcoming you if you do decide to become a student at the University of Wales Trinity Saint David.</p>
+      <p><strong>Professor Medwin Hughes</strong></p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page2">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>In the News</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Calendar and Events</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Pictures and Videos</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>Maps</h1>
+	</div>
+	<div data-role="content">Content
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="pageCarmarthen">
+	<div data-role="header">
+		<h1>Carmarthen</h1>
+	</div>
+	<div data-role="content">
+	  <p>The Carmarthen Campus is located on the outskirts of Carmarthen, the reputed birthplace of Merlin of Arthurian legend and the oldest town in Wales. It is a busy town which enjoys a good mix of traditional and modern shops, attesting to its unique charm and its readiness to adapt to the needs of the modern shopper. It is home to national chains, boutique style shops, as well as excellent indoor and outdoor markets. It enjoys excellent leisure facilities and boasts the first purpose-built digital cinema with six 3D screens.</p>
+	  <p><br>
+	  The town is served by major road and rail networks and is within easy reach of major cities including Swansea and Cardiff as well as ferry ports in west Wales</p>
+      <blockquote>
+        <p><img src="carmarthenCampus1.png" alt="Downtown Carmarthen" width="300" height="397"></p>
+      </blockquote>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page2">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="pageLampeter">
+	<div data-role="header">
+		<h1>Lampeter</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page2">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>Media</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8">
+	<div data-role="header">
+		<h1>Academic Schools and Faculties</h1>
+	</div>
+	<div data-role="content">
+	  <li><a href="#page8a">Faculty of Arts and Social Studies</a></li>
+	  <li><a href="#page8b">Faculty of Education and Training</a></li>
+	  <li><a href="#page8c">Faculty of Humanities</a></li>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page9">
+	<div data-role="header">
+		<h1>Contacts</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page10">
+	<div data-role="header">
+		<h1>Student Info and Services</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page11">
+	<div data-role="header">
+		<h1>Transportation</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page12">
+	<div data-role="header">
+		<h1>University Open Days Announcements</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8a">
+	<div data-role="header">
+     	<h1> Faculty of Arts and Social Studies</h1>
+        </div>
+	<div data-role="content">	
+		<li><a href="#page8.1">School of Business</a></li>
+        <li><a href="#page8.2">School of Creative Arts</a></li>	
+        <li><a href="#page8.3">School of Performing Arts</a></li>	
+        <li><a href="#page8.4">School of Sport, Health and Outdoor Education</a></li>
+      
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8b">
+	<div data-role="header">
+		<h1>Faculty of Education and Training</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8c">
+	<div data-role="header">
+		<h1>Faculty of Humanities</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8.1">
+	<div data-role="header">
+		<h1>School of Business</h1>
+	</div>
+	<div data-role="content">
+	  <p>The school is consistently ranked highly in leading surveys of higher education. The emphasis is always on the practical application of skills and knowledge and students from our programmes have an excellent record for employment once they graduate.</p>
+	  <p><strong>Get a degree that counts</strong> - Think about studying in one of our<em> undergraduate programmes</em> in Management, IT, Computing and Tourism</p>
+	  <p><strong>Enhance your career - </strong>Choose from one of our 9 specialist <em>MBA programmes</em>, or other masters programmes
+      <li><a href="#businessUndergradCourses">Undergraduate Courses</a></li></p>
+	  <p>&nbsp;</p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8a">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="businessUndergradCourses">
+	<div data-role="header">
+		<h1>School of Business: Undergraduate Courses</h1>
+	</div>
+	<div data-role="content">	
+		<li><a href="#BusinessIT">Business Information Technology</a></li>	
+        <li><a href="#BM">Business Management</a></li>
+        <li><a href="#computing">Computing</a></li>
+        <li><a href="#IC">Internet Computing</a></li>
+        <li><a href="#MIT">Management and Information Technology</a></li>
+        <li><a href="#PP">Professional Practice</a></li>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8.1">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="BusinessIT">
+	<div data-role="header">
+		<h1>Business Information Technology</h1>
+	</div>
+	<div data-role="content">
+      <blockquote>
+        <p>	
+          This challenging course provides an in-depth understanding of information systems, IT and contemporary management practices. You will develop a wide range of practical skills through lectures, workshops, group work, industrial visits and project work.
+        Information Technology, Business and Management are highly valued disciplines in both the public and private sectors.</p>
+        <p> This degree will provide you with opportunities to develop online databases, business applications and a portfolio of desirable knowledge and skills relevant to your future career. The Conference and Placement module is an opportunity for you to apply your theoretical knowledge to real workplace situations. </p>
+        <p>You will be encouraged to:</p>
+        <ul>
+          <li>Develop decision-making and problem-solving skills to help you analyse and produce innovative solutions to business problems</li>
+          <li>Expand and build on knowledge of IT applications for use within a business context</li>
+          <li>Develop a range of transferable skills sought after by many employers, including effective communication and interpersonal skills</li>
+        </ul>
+        <p><strong>Award</strong></p>
+        <ul>
+          <li>BSc (Single Honours)</li>
+        </ul>
+        <p><strong>UCAS Code</strong></p>
+        <ul>
+          <li>N190</li>
+        </ul>
+        <p><strong>Language Choice</strong></p>
+        <ul>
+          <li>English</li>
+        </ul>
+        <p><strong>Course Length</strong></p>
+        <ul>
+          <li>3 years full-time. Part-time study available</li>
+        </ul>
+        <p><strong>Entry Requirements</strong></p>
+        <ul>
+          <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+        </ul>
+        <p><strong>Typical Modules</strong></p>
+        <ul>
+          <li>Business Information Systems</li>
+          <li>Computer Systems and Data Communications</li>
+          <li>E-commerce Development and Management</li>
+          <li>System Analysis and Design</li>
+          <li>Project Management</li>
+          <li>Finance</li>
+          <li>Information Security and Forensics</li>
+          <li>E-Business Strategy</li>
+        </ul>
+        <p><strong>Department</strong></p>
+        <ul>
+          <li>School of Business (Fix Link Here)</li>
+        </ul>
+        <p><strong>Campus</strong></p>
+        <ul>
+          <li>Carmarthen Campus (Fix Link -- go to Carmarthen Campus Map)</li>
+        </ul>
+        <p><strong>Career Opportunities</strong></p>
+        <ul>
+          <li>ICT Specialists</li>
+          <li>Web Designers</li>
+          <li>Financial Services</li>
+          <li>Business Management and Consultancy</li>
+        </ul>
+        <p><strong>Key Features</strong></p>
+        <ul>
+          <li>A varied course covering the main business issues with local, national and global contexts</li>
+          <li>Exchange opportunities in Europe and USA possible</li>
+          <li>Practical focus</li>
+          <li>Links with public and private sector businesses</li>
+          <li>Collaboration with agencies and schemes concerned with developing enterprise and business ideas</li>
+          <li>Work Placement Officer may be able to arrange paid and unpaid placements to ensure that you are fully conversant with the workplace environment</li>
+        </ul>
+        <p><strong>Programme Specification (Check to see if I should add this)</strong>          </p>
+        <p>&nbsp;</p>
+      </blockquote>
+    </div>
+	<div data-role="footer">
+		<li><a href="#businessUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="BM">
+	<div data-role="header">
+		<h1>Business Management</h1>
+	</div>
+	<div data-role="content">	
+	  <blockquote>
+	    <p>This course is an ideal insight into the fast-moving world of business today. It has been designed to provide you with the skills and knowledge needed to succeed within the public, private or third sector.</p>
+        <p>The BA Business Management is an up-to-date and broad-ranging course. In addition to offering the main traditional topic areas such as marketing, human resource management and finance, the course features fresh, modern and contemporary issues such as Business ethics and social responsibility, e-business, entrepreneurship and enterprise.</p>
+        <p>Core modules in the first year provide you with a sound understanding of key issues, while a range of modules in the second and third years allow you to concentrate on areas of particular interest in more detail.</p>
+        <p>You will be encouraged to:</p>
+        <ul>
+          <li>Develop decision-making and problem-solving skills to help you analyse and produce innovative solutions to business problems</li>
+          <li>Expand and build on your knowledge of IT applications for use within a business context</li>
+          <li>Develop a range of transferable skills sought after by many employers, including effective communication and interpersonal skills</li>
+        </ul>
+        <p><strong>Award</strong></p>
+        <ul>
+          <li>BA (Single Honours)</li>
+        </ul>
+	    <p><strong>UCAS Code</strong></p>
+        <ul>
+          <li>N200</li>
+        </ul>
+	    <p><strong>Language Choice</strong></p>
+        <ul>
+          <li>English</li>
+        </ul>
+	    <p><strong>Course Length</strong></p>
+        <ul>
+          <li>3 years full-time; part-time study available	</li>
+        </ul>
+	    <p><strong>Entry Requirements</strong></p>
+        <ul>
+          <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+        </ul>
+	    <p><strong>Typical Modules</strong></p>
+        <ul>
+          <li>The Global Business Environment</li>
+          <li>Management Concepts and Philosophies</li>
+          <li>Human Resource Management</li>
+          <li>Marketing</li>
+          <li>Finance</li>
+          <li>Organisational Behaviour</li>
+          <li>Business Ethics and Social Responsibility </li>
+          <li>Strategic Management</li>
+        </ul>
+	    <p><strong>Department</strong></p>
+        <ul>
+          <li>School of Business (Put In Link)</li>
+        </ul>
+	    <p><strong>Campus</strong></p>
+        <ul>
+          <li>Carmarthen Campus (Put In Link)</li>
+        </ul>
+	    <p><strong>Career Opportunities</strong></p>
+        <ul>
+          <li>Human Resources</li>
+          <li>Marketing and Sales</li>
+          <li>Financial Services</li>
+          <li>Public, private or third sector management</li>
+          <li>Business Consultancy</li>
+          <li>Postgraduate study/research</li>
+        </ul>
+	    <p><strong>Key Features</strong></p>
+        <ul>
+          <li>Use of innovative technology enhanced learning and teaching</li>
+          <li>A varied course covering the main business issues with local, national and global contexts</li>
+          <li>Exchange opportunities in Europe and USA possible</li>
+          <li>Practical focus</li>
+          <li>Links with public and private sector businesses</li>
+          <li>Collaboration with agencies and schemes concerned with developing enterprise and business ideas</li>
+          <li>Work Placement Officer may be able to arrange paid and unpaid placements to ensure that you are fully conversant with workplace environment</li>
+        </ul>
+	    <p><strong>Programme Specification</strong></p>
+      </blockquote>
+    </div>
+	<div data-role="footer">
+		<li><a href="#businessUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="computing">
+  <div data-role="header">
+		<h1>Computing</h1>
+	</div>
+	<div data-role="content">
+	  <blockquote>
+	    <p>The BSc Computing programme has been designed to provide students with an understanding of a wide range of contemporary subjects in the area of Computing. You will develop an extensive range of practical skills in the areas of Computing, Information Systems and Information Technology. A wide variety of experiences is provided via workshops, group work, industrial visits and project work.</p>
+	    <p>You will gain a variety of practical skills including:</p>
+        <ul>
+          <li>Problem-solving skills including analysis and design of real world scenarios</li>
+          <li>A wide knowledge of application software covering the areas of IT and Computing</li>
+          <li>Programming and systems development skills, particularly in the context of the Web</li>
+          <li>Valuable transferable skills sought after by many employers today, such as effective communication and interpersonal skills</li>
+        </ul>
+        <p><strong>Award</strong></p>
+        <ul>
+          <li>BSc (Single Honours)</li>
+        </ul>
+	    <p><strong>UCAS Code</strong></p>
+        <ul>
+          <li>G400</li>
+        </ul>
+	    <p><strong>Language Choice</strong></p>
+        <ul>
+          <li>English</li>
+        </ul>
+	    <p><strong>Course Length</strong></p>
+        <ul>
+          <li>3 years full-time. Part-time study available</li>
+        </ul>
+	    <p><strong>Entry Requirements</strong></p>
+        <ul>
+          <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit</li>
+        </ul>
+	    <p><strong>Typical Modules</strong></p>
+        <ul>
+          <li>Computer Systems and Data Communications</li>
+          <li>Visual Programming and Program Design</li>
+          <li>E-commerce Development and Management</li>
+          <li>Database Management System</li>
+          <li>Information Security and Forensics</li>
+          <li>Programming Paradigms</li>
+          <li>Communications and Local Area Networking</li>
+          <li>Interactive Web Design</li>
+        </ul>
+	    <p><strong>Department</strong></p>
+        <ul>
+          <li>School of Business (Link)</li>
+        </ul>
+	    <p><strong>Campus</strong></p>
+        <ul>
+          <li>Carmarthen Campus (Link)</li>
+        </ul>
+	    <p><strong>Career Opportunities</strong></p>
+        <ul>
+          <li>ICT Specialists</li>
+          <li>Web Designers</li>
+          <li>Marketing and Sales</li>
+          <li>Financial Services</li>
+          <li>Health Services</li>
+          <li>Teaching (following a PGCE course)</li>
+          <li>Local Government</li>
+          <li>Retail Industry</li>
+          <li>Leisure, Tourism and Hospitality</li>
+        </ul>
+	    <p><strong>Key Features</strong></p>
+        <ul>
+          <li>Hands-on approach to lectures</li>
+          <li>Broad course content</li>
+          <li>Strong emphasis on skills that are relevant to the workplace</li>
+          <li>Integrates well with a wide range of subject areas</li>
+          <li>Excellent links with small businesses</li>
+          <li>Placement and career support and advice</li>
+          <li>Small classes and personal attention</li>
+        </ul>
+        <p><strong>Programme Specification</strong></p>
+	  </blockquote>
+    </div>
+	<div data-role="footer">
+	  <li><a href="#businessUndergradCourses">Return</a></li>
+  </div>
+</div>
+
+<div data-role="page" id="IC">
+	<div data-role="header">
+		<h1>Internet Computing</h1>
+	</div>
+	<div data-role="content">
+	  <blockquote>
+	    <p>	The BSc Internet Computing programme has been designed to provide you with an understanding of a wide range of contemporary subjects corresponding to growth in the demand for graduates with Internet-related skills.</p>
+        <p>This programme seeks to address this skills shortage by providing potential students with the necessary knowledge and abilities that will be attractive to future employers. The programme is designed to engage you in a wide variety of experiences through the use of workshops, group work, industrial visits and project work. You will develop an extensive range of practical skills that will be attractive to future employers. At the same time, it will allow you to study an evolving branch of Computing that is extending the boundaries of technology.</p>
+        <p>You will gain a variety of practical skills including:</p>
+        <ul>
+          <li>Problem-solving, analysis and design of real world scenarios</li>
+          <li>A wide knowledge of application software covering the areas of Computing and the Internet, programming and systems development skills, particularly in the context of the Web, will be developed</li>
+          <li>Transferable skills sought after by many employers today, such as effective communication and interpersonal skills.</li>
+        </ul>
+        <p><strong>Award</strong></p>
+        <ul>
+          <li>BSc (Single Honours)</li>
+        </ul>
+	    <p><strong>UCAS Code</strong></p>
+        <ul>
+          <li>G450</li>
+        </ul>
+	    <p><strong>Language Choice</strong></p>
+        <ul>
+          <li>English</li>
+        </ul>
+	    <p><strong>Course Length</strong></p>
+        <ul>
+          <li>3 years full time; part-time study available</li>
+        </ul>
+	    <p><strong>Entry Requirements</strong></p>
+        <ul>
+          <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+        </ul>
+	    <p><strong>Typical Modules</strong></p>
+        <ul>
+          <li>Web Mark Up Technologies and Data Modelling</li>
+          <li>Visual Programming and Program Design</li>
+          <li>Computing Systems and Data Communications</li>
+          <li>E-Commerce Development and Management</li>
+          <li>Interactive Technologies</li>
+          <li>Interactive Web Development</li>
+        </ul>
+	    <p><strong>Department</strong></p>
+        <ul>
+          <li>School of Business (Link)</li>
+        </ul>
+	    <p><strong>Campus</strong></p>
+        <ul>
+          <li>Carmarthen Campus</li>
+        </ul>
+	    <p><strong>Career Opportunities</strong></p>
+        <ul>
+          <li>Computer manager in public, private and third sector</li>
+          <li>Management consultancy</li>
+          <li>Research	</li>
+        </ul>
+	    <p><strong>Key Features</strong></p>
+        <ul>
+          <li>Course covers the topical issues in a local, national and global context</li>
+          <li>Links with agencies and businesses using and developing computer systems</li>
+          <li>Practical focus</li>
+          <li>Assistance with finding paid and unpaid placements</li>
+        </ul>
+	    <p><strong>Programme Specification</strong></p>
+      </blockquote>
+    </div>
+	<div data-role="footer">
+		<li><a href="#businessUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="MIT">
+	<div data-role="header">
+		<h1>Management and Information Technology</h1>
+	</div>
+	<div data-role="content">
+	  <blockquote>
+	    <p>This course provides an understanding and appreciation of the use of computers and IT in the present-day business environment. The core modules develop the fundamentals of IT and business information systems throughout the three years to a point where the role of IT is examined from the social, technical and management perspectives.</p>
+	    <p>You will gain knowledge of relevant and practical uses of Information Technology in order to improve your understanding of business organisations, their key functional areas and internal operating environments, as well as the external influences on their performances. You will be given the opportunity to use Information Technology in order to analyse the impact of environmental factors, market forces and management processes.</p>
+	    <p>In addition, you will develop the theoretical and practical knowledge to develop strategies, assess risks and to take decisions which may affect the competitive advantage and success of a business.</p>
+	    <p><strong>Award</strong></p>
+        <ul>
+          <li>BA (Single Honours)</li>
+        </ul>
+	    <p><strong>UCAS Code</strong></p>
+        <ul>
+          <li>NG25</li>
+        </ul>
+	    <p><strong>Language Choice</strong></p>
+        <ul>
+          <li>English</li>
+        </ul>
+	    <p><strong>Course Length</strong></p>
+        <ul>
+          <li>3 years full-time; part-time study available</li>
+        </ul>
+	    <p><strong>Entry Requirements</strong></p>
+        <ul>
+          <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+        </ul>
+	    <p><strong>Typical Modules</strong></p>
+        <ul>
+          <li>Data Handling and Statistics</li>
+          <li>Web Design</li>
+          <li>Project Management</li>
+          <li>Introduction to Business Functions</li>
+          <li>Marketing</li>
+          <li>E-Commerce Development and Management</li>
+          <li>Database Management Systems</li>
+          <li>Information Security and Forensics</li>
+          <li>Organisational Behaviour</li>
+          <li>Strategic Management</li>
+        </ul>
+	    <p><strong>Department</strong></p>
+        <ul>
+          <li>School of Business (Link)</li>
+        </ul>
+	    <p><strong>Campus</strong></p>
+        <ul>
+          <li>Carmarthen Campus</li>
+        </ul>
+	    <p><strong>Career Opportunities</strong></p>
+        <ul>
+          <li>ICT Specialists</li>
+          <li>IT Department Manager</li>
+          <li>Project Manager </li>
+          <li>e-Commerce Manager</li>
+        </ul>
+	    <p><strong>Key Features</strong></p>
+        <ul>
+          <li>A varied course covering the main business issues with local, national and global contexts</li>
+          <li>Exchange opportunities in Europe and USA possible</li>
+          <li>Practical focus</li>
+          <li>Links with agencies concerned with developing and promoting entrepreneurship</li>
+          <li>Extensive links with public and private sector business</li>
+        </ul>
+	    <p><strong>Programme Specification</strong></p>
+      </blockquote>
+    </div>
+	<div data-role="footer">
+		<li><a href="#businessUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="PP">
+	<div data-role="header">
+		<h1>Professional Practice</h1>
+	</div>
+	<div data-role="content">
+	  <blockquote>
+	    <p>The aim of the Professional Practice Framework is to provide student-centred learning opportunities that are accessible, flexible and inclusive.  Above all, it is intended to meet the needs of both employers and employees. In all cases, academic study is combined with workplace learning to equip people with the relevant knowledge, understanding and skills to improve performance at work and gain an academic qualification.</p>
+        <p>Learners will work with a Programme Adviser who will give guidance and normally remain with them throughout their studies. They will usually start with a learning plan and can achieve HE credits towards undergraduate qualifications in Professional Practice. The qualifications are Certificate of Higher Education in Professional Practice, Foundation Degree in Professional Practice and a BA (Hons) in Professional Practice.</p>
+        <p><strong>Award</strong></p>
+        <ul>
+          <li>Certificate of HE</li>
+          <li>Foundation Degree (FdA)</li>
+          <li>BA Honours</li>
+          <li>BA (Single Honours) (Check this)</li>
+        </ul>
+	    <p><strong>How to apply</strong></p>
+        <ul>
+          <li><strong>Contact </strong>wbl@tsd.ac.uk for further details</li>
+        </ul>
+	    <p><strong>Language Choice</strong></p>
+        <ul>
+          <li>English</li>
+          <li>Welsh</li>
+        </ul>
+	    <p><strong>Course Length</strong></p>
+        <ul>
+          <li>Depends on modules undertaken</li>
+        </ul>
+	    <p><strong>Entry Requirements</strong></p>
+        <ul>
+          <li>Normally you will be expected to be in a workplace that supports your application, although this may be in a voluntary capacity. You will be invited to visit the University to discuss the programme. Entry is based on individual merit.</li>
+        </ul>
+	    <p><strong>Typical Modules</strong></p>
+        <ul>
+          <li>Recognition and Accreditation of Learning</li>
+          <li>Work-based Learning Programme Plan</li>
+          <li>Working and Learning: an introduction to work-based higher education</li>
+          <li>Research methods for Work-based Learning</li>
+          <li>An Introduction to Mentoring</li>
+          <li>Work-based Learning Project</li>
+          <li>Independent Study</li>
+          <li>Competency-based Portfolio</li>
+          <li>Bilingualism in the Workplace</li>
+          <li>Vocational Welsh (Listening and Speaking)</li>
+          <li>Vocational Welsh (Reading and Writing)</li>
+        </ul>
+	    <p><strong>Department</strong></p>
+        <ul>
+          <li>School of Business (Link)</li>
+        </ul>
+	    <p><strong>Campus</strong></p>
+        <ul>
+          <li>Work-based learning</li>
+          <li>Inductions on Carmarthen Campus</li>
+        </ul>
+	    <p><strong>Career Opportunities</strong></p>
+        <ul>
+          <li>The Professional Practice Framework allows you to gain internationally recognised university qualifications and focuses on your career progression. It is also possible to study at postgraduate level as your career develops.</li>
+        </ul>
+	    <p><strong>Key Features</strong></p>
+        <ul>
+          <li>Demand-led and quality assued learning that is customised to meet the needs of individuals and the development needs of their employers</li>
+          <li>Learning is primarily work-based and so reduces the time needed to be away from the workplace</li>
+          <li>Programmes are offered through the medium of Welsh and English</li>
+          <li>Accreditation of prior learning is a feature of the programme, either for learning gained through the experience of work or through previous study</li>
+          <li>Technology-supported learning allows people to learn at times and in places that are convenient to them</li>
+        </ul>
+	    <p><strong>Programme Specification</strong></p>
+      </blockquote>
+    </div>
+	<div data-role="footer">
+		<li><a href="#businessUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8.2">
+	<div data-role="header">
+		<h1>School of Creative Arts</h1>
+	</div>
+	<div data-role="content">
+	  <p>The School of Creative Arts is based on the Carmarthen campus of the University. </p>
+	  <p>We strive to bring the latest developments within these fields to the students.</p>
+	  <p>Staff are experts in their field and have numerous links to the creative and academic arenas that support their teaching.</p>
+	  <p>Graduating students are prepared for a life of creative and conceptual flexibility at a professional level. Our aim is to develop diverse and adaptable graduates through a series of practical and theoretical modules that are linked to industry standards and emerging concepts of creativity.</p>
+	  <p>We encourage the application of critical knowledge in creative acts via a visual language. Students are exposed to the same challenges and experiences as the creative industries they will become a part of.</p>
+	  <p>The power of analysis and creativity are among the most valuable and adaptable skills anyone can possess. Working with the media industries and creative communities ensures our graduates are contributors and not followers.</p>
+	  <p><li><a href="#creativeArtsUndergradCourses">Undergraduate Courses</a></li></p>
+	  <p>&nbsp;</p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8a">Return</a></li>
+	</div>
+</div>&nbsp;</p>
+	 
+</div>
+
+<div data-role="page" id="page8.3">
+	<div data-role="header">
+		<h1>School of Performing Arts</h1>
+	</div>
+	<div data-role="content">
+	  <p>The School of Performing Arts is located within the Faculty of Arts and Social Studies on the Carmarthen campus. Our emphasis on collaboration between practitioners from different disciplines has created an extremely supportive environment in which students can safely explore and experiment.
+ 
+Training is provided by a mixture of full-time and freelance staff, many of who continue to work professionally within the Performing Arts industry. We offer a variety of pathways both through the medium of Welsh and English.
+</p>
+<p><li><a href="#performingArtsUndergradCourses">Undergraduate Courses</a></li></p>
+	  </p>
+	  <p>&nbsp;</p>
+  </div>
+	<div data-role="footer">
+		<li><a href="#page8a">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="page8.4">
+	<div data-role="header">
+		<h1>School of Sport, Health, and Outdoor Education </h1>
+	</div>
+	<div data-role="content">
+	  <p>Content</p>
+	  </p>
+	  <p>&nbsp;</p>
+  </div>
+	<div data-role="footer">
+		<li><a href="#page8a">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="creativeArtsUndergradCourses">
+	<div data-role="header">
+		<h1>School of Creative Arts: Undergraduate Courses</h1>
+	</div>
+	<div data-role="content">	
+		<li><a href="#filmAndVisualCulture">Film and Visual Culture</a></li>	
+        <li><a href="#newMediaProduction">New Media Production</a></li>
+        <li><a href="#foundationStudiesInAD">Foundation Studies in Art & Design</a></li>
+        <li><a href="#ADmulti">Art and Design: Multidisciplinary</a></li>
+        <li><a href="#ceramicsAndJewellery">Ceramics and Jewellery</a></li>
+        <li><a href="#digitalIllustration">Digital Illustration</a></li>
+        <li><a href="#fashion">Fasion: Apparel Design and Construction</a></li>
+        <li><a href="#celfaDylunio">Celf a Dylunio</a></li>
+        <li><a href="#fineArtPDP">Fine Art: Painting, Drawing and Printmaking</a></li>
+        <li><a href="#fineArtSculp">Fine Art: Sculpture</a></li>
+        <li><a href="#graphicComm">Graphic Communication</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#textiles">Textiles: Art, Design, and Craft</a></li>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8.2">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="filmAndVisualCulture">
+	<div data-role="header">
+		<h1>Film and Visual Culture</h1>
+	</div>
+	<div data-role="content">
+      <p>The BA Film and Visual Culture is an innovative degree programme, which combines the academic study of film and other visual media with the creative production of individual pieces of work in specialised areas. By combining theory and practice, students are encouraged to enhance their understanding of cinema as a medium through the creation of practical work.</p>
+      <p>The programme has been conceived with an emphasis upon vocational skills and employability; over the course of their studies, students will assemble a portfolio of work to enable them to compete for employment in their chosen field of the film industry.</p>
+      <p>Emphasis has been given to entrepreneurial skills, and to the skills required to publish and exhibit work to audiences beyond the university.</p>
+	  <p>Students will be invited to engage with a broad range of contemporary media (such as film, television, graphic novels and comics, internet and mobile publishing, interactive media and gaming), and to focus their major projects upon the areas of their choice.</p>
+	  <p>Over the course of the programme, students will be able to combine the theoretical and academic analysis of film and visual media, with practical and creative approaches. Students will have the opportunity to engage in all stages of filmmaking, from conception, through pre-production and production, and on to publication and/or exhibition.</p>
+	  <p>Over the course of these processes, students will gain an insight into those areas that they would wish to specialise in. By their final year, students will be able to opt for a major creative project in a production area of their choice; this could take the form of screenwriting, filmmaking, animation or game design, to name some of the options open to students.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA (Single Honours)</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>P30H</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+      </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Script to Screen</li>
+	    <li>Adaptation</li>
+	    <li>Film History</li>
+	    <li>Digital Film Production</li>
+	    <li>Entrepreneurship in Film and Media</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+	  <ul>
+	    <li>Carmarthen Campus</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>Film Maker</li>
+	    <li>Cinematographer</li>
+	    <li>Film Editor</li>
+	    <li>Media Archivist</li>
+	    <li>Arts Administrator</li>
+	    <li>Screenwriter</li>
+	    <li>Advertising</li>
+	    <li>Creative Media</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <li>A wide-ranging programme covering cinema from its origins to the latest developments of the art form</li>
+	    <li>Expert tuition from research active staff who are experts in their fields</li>
+	    <li>Access to high level production facilities</li>
+	    <li>To liaise with Creative Industry personnel</li>
+	    <li>The School of Creative Arts is committed to ensuring that National Vocational Standards are built into its degree pathways</li>
+      </ul>
+	  <p><strong>Programme Specification</strong></p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="newMediaProduction">
+	<div data-role="header">
+		<h1>New Media Production</h1>
+	</div>
+	<div data-role="content">
+	  <p>The BA New Media Production degree is a multidisciplinary programme that equips students with specialist skills and knowledge in content creation for the contemporary media industry.</p>
+	  <p>Students will explore a variety of creative production methodologies such as electronic publishing; online filmmaking; blogging and online journalism; animation; and interactive photography as wells as the underlying web technologies that define New Media. With an emphasis on interactive narratives, the programme puts the user at the centre of the action. It is this interactivity and 360-degree vision that makes New Media Production so distinctive and compelling.</p>
+	  <p>A hands-on programme, there is also a core theoretical strand, ranging from media theory, academic skills and contemporary issues in the Creative Industries. There is an emphasis on employability skills, with specific opportunities for work placement and business development planning.</p>
+	  <p>Teaching is delivered in hands-on workshops, lectures and seminars where students are encouraged to develop their analytical, conceptual and practical thinking. Ideas will be developed through pitches, workshops and presentations, and expressed in the production work and written critical appraisals.</p>
+	  <p>As students progress through the programme they will produce increasingly complex work culminating in a final year Creative Project that will be their calling card when they enter the Creative Industries, further develop their expertise in postgraduate programmes or start their own business.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA (Single Honours)</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>PH10</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+      </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Introduction to Publishing</li>
+	    <li>Interactive Media</li>
+	    <li>Digital Film Production</li>
+	    <li>Mobile Publishing: App Design and Development</li>
+	    <li>Entrepreneurship in Film and Media</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+	  <ul>
+	    <li>Carmarthen Campus</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>Digital Animation</li>
+	    <li>Digital Photography</li>
+	    <li>Online Publishing</li>
+	    <li>Print-based Publishing</li>
+	    <li>Web-design</li>
+	    <li>Gaming</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <li>Industry standards software in a state-of-the-art facility</li>
+	    <li>Creation of a body of production work using a variety of digital media technologies under expert tuition</li>
+	    <li>Explore the creative options for delivering an interactive narrative in a variety of formats, such as filmmaking, animation, photography and/or games</li>
+	    <li>The School of Creative Arts is committed to ensuring that National Vocational Standards are built into its degree pathways</li>
+      </ul>
+	  <p>&nbsp;</p>
+    
+    </div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="ADmulti">
+	<div data-role="header">
+		<h1>Art and Design: Multidisciplinary</h1>
+	</div>
+	<div data-role="content">
+	  <p>The College has an established reputation for facilitating the creative development of art and design students. This course was developed in response to students who may wish to continue to study in more than one art/design/craft discipline over the three years of their degree programme. The course offers you a broad-based experience of contemporary visual and material arts practice and allows you to negotiate and develop a more personalised programme of study within speColeg Sir Gart areas of art and design to suit your own particular interests and needs (subject to timetabling requirements). </p>
+	  <p>From the onset of the course you will have opportunities to gain experiences from a range of disciplines within the Applied Arts, Design and Fine Art programmes. Your chosen areas of study may combine electives from within the individual disciplines in order to facilitate practice that seeks to continue to work in more than one discrete area. Many Post-graduate teacher training courses (PGCE) expect prospective students to have experience across a range of art and design activities in addition to their own speColeg Sir Gart area. Students will develop a knowledge and understanding of exciting developments within international contemporary art, applied arts and design, its contexts and markets. Professional practice and enterprise skills teaching will help prepare students for employment and self employment options. </p>
+	  <p>Your practice is supported by an integrated theory programme enabling you to work confidently and professionally within the context of Multidisciplinary Art and Design. The School of Creative Arts provides a friendly and supportive environment for students to explore their options and develop their individual style and potential</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA (Single Honours)</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>C22</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>	      Tariff Score Points accepted 120	      </li>
+	    <li>In addition applicants would normally be expected to have achieved English or Welsh language, Mathematics to a minimum of C at GCSE</li>
+	  </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+	  <ul>
+	    <li>Carmarthen</li>
+	    <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>This degree can lead to a wide range of career opportunities as a freelance artist/designer; employed artist/designer; art administrator; or community art worker etc. This course may also provide an ideal platform to become either a secondary or primary school teacher or an art therapist following additional speColeg Sir Gart training. It could also be the basis for other postgraduate study.</li>
+      </ul>
+	  <p><strong>Key Features</strong>    </p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="ceramicsAndJewellery">
+	<div data-role="header">
+		<h1>Ceramics and Jewellery</h1>
+	</div>
+	<div data-role="content">
+	  <p>The BA Hons Ceramics and Jewellery course is a diverse and dynamic programme of study that covers contemporary 3D making skills in ceramics, jewellery and mixed media. Students are free to produce fine art, studio craft or designer objects / artefacts. The course philosophy is driven by learning, though making underpinned by curiosity and creativity. Students will be taught by a team of highly motivated, experienced academic and technical staff. The teaching aims to foster creativity and individuality through `hands-on' skills based teaching. Students will undertake a programme of study that incorporates an extensive range of making processes with ceramic, fine metal, glass and mixed media, combining traditional and digital technologies. </p>
+	  <p>In the second year they are able to speColeg Sir Gare in either ceramics or jewellery or continue a combined creative practice using mixed media. Students will also gain a knowledge and understanding of exciting developments within international contemporary art, applied art and design, its contexts and markets. Professional practice and enterprise skills teaching will prepare students for employment and self-employment. </p>
+	  <p>The programme can also offer individuals an opportunity to create work in a bilingual context and environment. Practice is supported by an integrated theory programme enabling people to work confidently and professionally within the context of ceramics, jewellery and 3D art and design. </p>
+	  <p>The School of Creative Arts provides a friendly and supportive environment for students to explore their options and develop their individual style and potential.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>C22</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>Tariff Score Points accepted 120</li>
+	    <li>In addition applicants would normally be expected to have achieved English or Welsh language, Mathematics to a minimum of C at GCSE.</li>
+	  </ul>
+	  <p><STRONG>Selection Procedures </STRONG></p>
+	  <ul>
+	    <li>Offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work. Programme Co-ordinators will interview prospective students.</li>
+	    <li>Mature applicants with relevant prior experience are welcome and are considered on an individual basis. </li>
+	    <li>International students will be interviewed by video conferencing. At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme. Academic certificates and relevant documentation will be checked before unconditional acceptance. Successful applicants will be accepted either conditionally or unconditionally, depending on whether they fulfil the academic requirements.</li>
+	  </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Ceramic Materials &amp; Processes</li>
+	    <li>Jewellery Materials and Processes</li>
+	    <li>2D/3D Visualisation</li>
+	    <li>SpeColeg Sir Gart Professional Skills</li>
+	    <li>Creative Projects</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus </strong></p>
+	  <ul>
+	    <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>Studio Ceramic Artist</li>
+	    <li>Potter</li>
+	    <li>Studio Jewellery Artist</li>
+	    <li>Designer</li>
+	    <li>3D Designer Maker</li>
+	    <li>Character Modelling for Film</li>
+	    <li>Gaming &amp; Merchandising</li>
+	    <li>Secondary or Primary Teaching</li>
+	    <li>Retail Buyer</li>
+	    <li>Arts Administrator</li>
+	    <li>Community Art Worker</li>
+	    <li>Art Therapy</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+      <ul>
+        <LI>3D `hands-on' skills based teaching</LI>
+        <LI>Combined traditional 3D making skills with digital technologies</LI>
+        <LI>Facilitate creativity and individuality within the context of contemporary design craft culture</LI>
+        <LI>Facilitate critical thinking and enterprise within the context of ceramics and jewellery practice</LI>
+        <LI>Develop transferable skills for employment and self-employment</LI>
+      </ul>
+	  <p>&nbsp;</p>
+    
+    </div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="digitalIllustration">
+	<div data-role="header">
+		<h1>Digital Illustration</h1>
+	</div>
+	<div data-role="content">
+	  <p>Coleg Sir Gar - Carmarthenshire College has an established reputation for facilitating the creative development of art and design students. This new course has evolved in response to contemporary art and design practice, culture and industry and is available bilingually, where students can choose to be taught and supported through the medium of Welsh or English. </p>
+	  <p>On this course, students will be encouraged to explore traditional and digital illustrative techniques. Students will be working in 2D, 2.5D and 3D environments using speColeg Sir Gart software to develop the ability to combine 2D painting techniques with 3D sculpting and create illustrations that blend the two. This will enable students to expand the barriers of experimentation and creativity. Experimentation is seen as paramount in achieving this, and a keen interest in the visual world should inform this experimentation. There is a strong emphasis on drawing as a means of exploring the visual environment. Aimed at students with a keen interest in drawing and an interest in digital imaging, this course focuses on understanding and developing visual language and refining technique. </p>
+	  <p>Through experimentation, exploration and continual practice you are encouraged to develop your individual style, methods and language as diverse as your imagination. Areas covered would include life drawing, concept art development, 2D, 2.5D and 3-D illustration, including modelling, texturing, lighting and rendering. Alongside the core practical skills, students also learn enriching conceptual and theoretical topics such as art, design and communication.</p>
+	  <p>You will develop a speColeg Sir Gart range of skills and be challenged by industry level assignments and internationally set competition briefs. To use illustration in a wide range of media such as video games, films, animation, advertising and publishing. There is a growing demand for digital artists/illustrator and graphic designers who have exposure to both 3D design and digital illustration. Graduates from this course should certainly have the right skills to help meet that demand. </p>
+	  <p>The programme can also offer individuals an opportunity to create work in a bilingual context and environment. Your practice is supported by an integrated theory programme enabling students to work confidently and professionally within the context of 2D and 3D Illustration. </p>
+	  <p>The School of Creative Arts, provides a friendly and supportive environment for students to explore their options and develop their individual style and potential.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>C22</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+	    <li>Welsh</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>	      Tariff Score Points accepted 120	      </li>
+	    <li>In addition applicants would normally be expected to have achieved English or Welsh language, Mathematics to a minimum of C at GCSE.	    </li>
+	  </ul>
+	  <p><strong>Selection Procedures</strong></p>
+      <ul>
+        <li>Offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work. Programme Co-ordinators will interview prospective students. </li>
+        <li>Mature applicants with relevant prior experience are welcome and are considered on an individual basis.</li>
+        <li> International students will be interviewed by video conferencing. At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme. Academic certificates and relevant documentation will be checked before unconditional acceptance.</li>
+      </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Introduction to Digital Practice</li>
+	    <li>Introduction to 2D/3D Visualisation</li>
+	    <li>Digital Illustration</li>
+	    <li>Live Projects &amp; Competitions</li>
+	    <li>Professional Practice</li>
+	    <li>Dissertation</li>
+	    <li>Major Project</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+	  <ul>
+	    <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>Freelance Illustration Practice</li>
+	    <li>Design Group Practice</li>
+	    <li>Publishing</li>
+	    <li>Advertising</li>
+	    <li>Branding - Animation</li>
+	    <li>Game Design - Web Development</li>
+	    <li>e-Learning - Studio Management and Art Direction</li>
+	    <li>Community Art Worker</li>
+	    <li>Secondary or Primary or FE Teaching</li>
+	    <li>Art Therapy</li>
+	    <li>Information Graphics</li>
+	    <li>Concept Artist</li>
+	    <li>Client Visualisation</li>
+	    <li>Technical Illustration</li>
+	    <li>Film/Television Industry</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <LI>Excellent facilities</LI>
+	    <LI>Use of latest Apple Macintosh technologies - both hardware and software</LI>
+	    <LI>Small class sizes in all modules </LI>
+	    <LI>International student exchange scheme </LI>
+	    <LI>Strong vocational relevance and links with employers</LI>
+	    <LI>Regular trips, conferences &amp; events - both nationally and internationally</LI>
+	    <LI>Regular contact with staff</LI>
+      </ul>
+	  <p>&nbsp;</p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="fashion">
+	<div data-role="header">
+		<h1>Fashion: Apparel Design and Construction</h1>
+	</div>
+	<div data-role="content">
+	  <p>Coleg Sir Gar - Carmarthenshire College has an established reputation for facilitating the creative development of art and design students.</p>
+	  <p>This new course has evolved in response to contemporary art and design practice, culture and industry. This programme allows you to explore the whole design cycle from trend prediction through to finished garment.</p>
+	  <p>The course aims to develop your creative and technical skills focusing upon gaining employment within the fashion industry. Students will be encouraged to be independent, enquiring individuals capable of responding to industry projects and self initiated work. The course encourages creativity and innovation in a lively working environment. Students will have access to industry specific resources such as Gerber CAD/CAM and laser/ultrasonic joining technologies.</p>
+	  <p>The programme can also offer individuals an opportunity to create work in a bilingual context and environment. Students will be given opportunities to develop skills and explore trend prediction, design, illustration, CAD/CAM, pattern cutting, construction and styling. Individuals are encouraged to develop entrepreneurial skills by engaging in live industry projects. The final year culminates with students exhibiting their catwalk collection in a degree show at Graduate Fashion Week, London. Student practice is supported by an integrated theory programme enabling students to work confidently and professionally within the context of Fashion. The School of Creative Arts, provides a friendly and supportive environment for students to explore their options and develop their individual style and potential</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>C22</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+	    <li>Welsh</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>General requirements are 120 UCAS points.  In addition applicants would normally be expected to have achieved English or Welsh language, mathematics to a minimum of C at GCSE. Selection procedures offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work.</li>
+	    <li>Programme co-ordinators will interview prospective students. Mature applicants with relevant prior experience are welcome and are considered on an individual basis. International students will be interviewed by video conferencing. At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme. Academic certificates and relevant documentation will be checked before unconditional acceptance.</li>
+      </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Apparel Design and Production Processes</li>
+	    <li>Developing Visual Language</li>
+	    <li>Creative Digital Practice</li>
+	    <li>SpeColeg Sir Gart Skills</li>
+	    <li>Live Projects and Competitions</li>
+	    <li>Enterprise for Creative Industries</li>
+	    <li>Contextual Studies</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+      <ul>
+        <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>The course develops students' skills in a variety of areas allowing for a range of career progression routes. </li>
+	    <li>Typical routes include:
+	      <ul>
+	        <li> fashion design</li>
+	        <li> fashion illustration</li>
+	        <li> trend prediction</li>
+	        <li>styling</li>
+	        <li> visual merchandising</li>
+	        <li>film/television costume design</li>
+	        <li>pattern cutting</li>
+	        <li>garment technology            </li>
+	      </ul>
+        </li>
+	    <li> Post graduate research is also a possible area for progression.</li>
+	  </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <LI>Students have access to a well equipped work studio with industrial machinery and spacious pattern cutting areas. Students all have designated individual work spaces.</LI>
+	    <LI>The department houses the Shared Technology Resource Centre which is a state of the art Gerber Design Centre. The commercial centre works with garment and textile companies providing valuable links. Students access the centre for workshops throughout the course giving them skills which are very much in demand within industry. The centre has recently acquired laser welding (joining) technology for the production of wearable technologies and technical textile products.</LI>
+	    <LI>Student exchange agreement with Kansas State University in the USA.</LI>
+	    <LI>Students participate in national competitions.</LI>
+	    <LI>Regular visits to exhibitions, galleries and trade fairs are integrated into the course along with international visits to places such as New York.</LI>
+	    <LI>Graduating students exhibit their work at London Graduate Fashion Week, a high profile event in the fashion industry calendar.</LI>
+      </ul>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+    
+    </div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="celfaDylunio">
+	<div data-role="header">
+		<h1>Celf a Dylunio</h1>
+	</div>
+	<div data-role="content">
+	  <p>Mae'r cwrs arloesol ac unigryw hwn yn caniatáu ichi astudio celf a dylunio trwy gyfrwng y Gymraeg, i gyfathrebu yn y Gymraeg â&rsquo;r tiwtoriaid a&rsquo;r myfyrwyr ac i edrych ar ddiwylliannau gweledol creadigol Cymru.</p>
+	  <p>Byddwch yn ymwneud â gwaith ymarferol ym meysydd dylunio, gwaith digidol, cyfrwng cymysg, gwaith dau a thri-dimensiwn a phrosiectau creadigol. Bydd y gwaith ymarferol yn cael ei danategu gan ddamcaniaethau a hanes celf a dylunio ynghyd â dealltwriaeth eang o bwysigrwydd y diwylliannau gweledol yn y byd creadigol.</p>
+	  <p>Ar ôl datblygu eich sgiliau ymarferol, wrth symud ymlaen yn y cwrs, byddwch yn canolbwyntio&rsquo;n fanylach ar agweddau o gelf a dylunio ac yn ogystal bydd cyfleoedd i ddatblygu&rsquo;r sgiliau yma mewn prosiectau creadigol.</p>
+	  <p>Bydd y radd yn cynnig rhychwant cyffrous o fodylau mewn amgylchedd cefnogol a heriol i fyfyrwyr a fydd yn caniatáu i chi ddatblygu eich doniau creadigol personol mewn celf a dylunio a hynny trwy gyfrwng y Gymraeg.</p>
+	  <p><strong>Cymhwyster</strong></p>
+	  <ul>
+	    <li>BA (Anrhydedd Sengl)</li>
+      </ul>
+	  <p><strong>Côd UCAS</strong></p>
+	  <ul>
+	    <li>WW12</li>
+      </ul>
+	  <p><strong>Cyfleoedd Gyrfa</strong></p>
+	  <ul>
+	    <li>Artist Proffesiynol/Cymunedol</li>
+	    <li>Artist celf gyhoeddus</li>
+	    <li>Curadu</li>
+	    <li>Gweinyddwr Celf</li>
+	    <li>Dysgu uwchradd a chynradd</li>
+      </ul>
+	  <p><strong>Campws</strong></p>
+	  <ul>
+	    <li>Campws Caerfyrddin</li>
+      </ul>
+	  <p><strong>Modylau Enghreifftiol</strong></p>
+	  <ul>
+	    <li>Argraffu</li>
+	    <li>Cyfrwng cymysg 2D/3D</li>
+	    <li>Astudiaethau gweledol</li>
+	    <li>Prosiect creadigol</li>
+	    <li>Prosiect cynllunio proffesiynol</li>
+	    <li>Digidol</li>
+      </ul>
+	  <p><strong>Nodweddion Allweddol</strong></p>
+	  <ul>
+	    <li>Staff a chanddynt gymwysterau proffesiynol, academaidd a diwydiannol</li>
+	    <li>Teithiau, cynadleddau a digwyddiadau rheolaidd - yn genedlaethol a rhyngwladol</li>
+	    <li>Datblygu sgiliau trosglwyddadwy ar gyfer gwaith a hunangyflogaeth</li>
+	    <li>Cyfle i gymryd rhan mewn meddwl creadigol, hunanfynegiant, trafod a chyfathrebu</li>
+      </ul>
+	  <p>&nbsp;    </p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="fineArtPDP">
+	<div data-role="header">
+		<h1>Fine Art: Painting, Drawing and Printmaking</h1>
+	</div>
+	<div data-role="content">
+	  <p>This course is a speColeg Sir Gart programme that offers a diverse, thorough and dynamic experience of Fine Art Painting, Drawing and Printmaking. Students will be encouraged to develop a personal and independent art practice that critically interrogates the subject areas and explores these disciplines in relation to the rich historical and contemporary contexts. Skills based teaching underpins year one of the programme. </p>
+	  <p>Through extensive exploration of traditional and contemporary materials and methods we aim to equip students with a comprehensive understanding of the craft of painting, drawing and printmaking whilst developing and nurturing personal visual language and conceptual concerns through guided experimentation, critical debate and analysis of studio practice. </p>
+	  <p>During years two and three, students will develop a more independent art practice pursuing their own particular interests and concerns through negotiated projects with strong tutorial support. Students are encouraged to develop their own vision and consolidate their work, leading to a final year exhibition. Students can develop personal practice using a combination of painting, drawing and printmaking processes or they may choose to speColeg Sir Gare in one area as their practice evolves.Practical modules are supported by an integrated theory programme enabling students to work confidently and professionally within the context of Painting, Drawing and Printmaking.The course also includes enterprise and professional skills modules to help students achieve their career ambitions. </p>
+	  <p>The School of Creative Arts provides a friendly and supportive environment for students to explore their options and develop their individual style and potential. The college has an established reputation for facilitating the creative development of art and design students, and the course continues to evolve in response to contemporary art, culture and technological innovation.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>C22</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>Tariff Score Points accepted 120</li>
+	    <li>In addition applicants would normally be expected to have achieved English or Welsh language, Mathematics to a minimum of C at GCSE.</li>
+	  </ul>
+	  <p><strong>Selection Procedures </strong></p>
+	  <ul>
+	    <li>Offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work. Programme Co-ordinators will interview prospective students.</li>
+	    <li>Mature applicants with relevant prior experience are welcome and are considered on an individual basis.</li>
+	    <li> International students will be interviewed by video conferencing. At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme. Academic certificates and relevant documentation will be checked before unconditional acceptance. Successful applicants will be accepted either conditionally or unconditionally, depending on whether they fulfil the academic requirements.</li>
+	  </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Painting Practice</li>
+	    <li>Printmaking Processes</li>
+	    <li>Paint Technologies</li>
+	    <li>Approaches to Drawing</li>
+	    <li>Art Practice</li>
+	    <li>Methods and Materials</li>
+	    <li>Creative Project</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+      <ul>
+        <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>Professional Artist Teaching</li>
+	    <li>Gallery Education Arts</li>
+	    <li>Adminstration Curating Art Writing </li>
+	    <li>Journalism Community Arts</li>
+	    <li>Art Therapy Postgraduate Study</li>
+	    <li>Research</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <LI>Skills based practical workshops covering a wide range of approaches to painting, drawing and printmaking</LI>
+	    <LI>Paint technology module covering an extensive exploration of traditional and contemporary materials and processes</LI>
+	    <LI>A supportive and enthusiastic course team of practicing artists offering a diverse and high level of expertise</LI>
+	    <LI>Dedicated, individual student studio spaces</LI>
+	    <LI>Contribution of visiting artists and art professionals to the course programme</LI>
+	    <LI>Study visits to exhibitions both nationally and internationally</LI>
+	    <LI>Opportunity to participate in international student exchange programmes </LI>
+      </ul>
+	  <p>&nbsp;</p>
+    
+    </div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="graphicComm">
+	<div data-role="header">
+		<h1>Graphic Communication</h1>
+	</div>
+	<div data-role="content">
+	  <p>The college has an established reputation for facilitating the creative development of art and design students. This new course has evolved in response to contemporary art and design practice, culture and industry and is available bilingually, where students can choose to be taught and supported through the medium of Welsh or English.</p>
+	  <p>In the rapidly growing and changing world of visual communication, graphic design can be best described as 'making an idea visual'. The course gives learners the opportunity to develop problem-solving skills as well as working in 2D, 3D and with the moving image. Students will explore the use of words and how they communicate using typography.</p>
+	  <p> The course seeks to equip you to work in this exciting and diverse industry, developing creative attitudes and skills within a variety of media, both traditional and digital. The course introduces you to essential graphic languages and processes including digital image manipulation, traditional and digital drawing, typography, branding, advertising, 3D &amp; 2D visualisation, web design, motion graphics, print-making, advanced desktop publishing, preparation for print and along with new technologies, project management. Focusing on some of the major areas in contemporary communications, this course helps to promote the creative thinking processes together with introducing the skills required to enter the creative industry. </p>
+	  <p>The programme can also offer individuals an opportunity to create work in a bilingual context and environment. Your practice is supported by an integrated theory programme enabling you to work confidently and professionally within the context of graphic communication. </p>
+	  <p>The School of Creative Arts, provides a friendly and supportive environment for students to explore their options and develop their individual style and potential.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>W290</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+	    <li>Welsh</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>Tariff score points accepted 120.</li>
+	    <li> In addition applicants would normally be expected to have achieved English or Welsh language, mathematics to a minimum of C at GCSE. </li>
+      </ul>
+	  <p><strong>Selection Procedures</strong></p>
+	  <ul>
+	    <li> Offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work. Programme co-ordinators will interview prospective students. </li>
+	    <li>Mature applicants with relevant prior experience are welcome and are considered on an individual basis.</li>
+	    <li> International students will be interviewed by video conferencing. At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme. Academic certificates and relevant documentation will be checked before unconditional acceptance.</li>
+      </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Introduction to Visual Language</li>
+	    <li>Introduction to 2D/3D Visualisation</li>
+	    <li>Typography</li>
+	    <li>Live Projects and Competitions</li>
+	    <li>Professional Practice</li>
+	    <li>Dissertation</li>
+	    <li>Major Project</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+      <ul>
+        <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>Freelance Design Practice</li>
+	    <li>Publishing</li>
+	    <li>Advertising</li>
+	    <li>Branding Web Design</li>
+	    <li>Exhibition Design</li>
+	    <li>Studio Management</li>
+	    <li>Art Direction</li>
+	    <li>Television Graphics</li>
+	    <li>Sign Manufacturing</li>
+	    <li>Teaching/Lecturing</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <LI>Excellent facilities and use of latest Apple Macintosh technologies - both hardware and software</LI>
+	    <LI>Small class sizes in all modules </LI>
+	    <LI>International student exchange scheme </LI>
+	    <LI>Strong vocational relevance and links with employers and regular trips, conferences &amp; events - both nationally and internationally</LI>
+	    <LI>Regular contact with staff</LI>
+      </ul>
+	  <p>&nbsp;</p>
+    
+    </div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="photography">
+	<div data-role="header">
+		<h1>Photography</h1>
+	</div>
+	<div data-role="content">
+	  <p>Coleg Sir Gâr - Carmarthenshire College has an established reputation for facilitating the creative development of art and design students. This new course has evolved in response to contemporary art and design practice, culture and industry. This is a broad course encompassing the fact that photography spans both professional design and fine art practice. The course encourages creativity and develops your photographic, visual and technical skills based on your interests. It will introduce you to the diversity of photographic and creative techniques (digital and silver-based) used for commercial and personal practice. </p>
+	  <p>Throughout the course, students will develop a personal strategy for developing a career through photography. Students will be given opportunities to explore areas such as digital photography that recognises the new digital literacy in visual language for the professional photographer. Learners will use cameras as capture devices for studio and location imaging for editorial, fashion and advertising clients and develop creative image, editing skills, whilst also learning retouching and digital delivery. Additionally the Welsh landscape will reflect the cultural values of traditional and contemporary imaging in Wales. This will encourage and enable you to look at the Welsh landscape as a site of change from the social, historical, industrial and the beautiful.</p>
+	  <p> Your practice is supported by an integrated theory programme enabling you to work confidently and professionally within the context of photography. </p>
+	  <p>The School of Creative Arts provides a friendly and supportive environment for students to explore their options and develop their individual style and potential.</p>
+	  <p>&nbsp;</p>
+	  <p><strong>Award</strong></p>
+      <ul>
+        <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>W640</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>Tariff Score Points accepted 120</li>
+	    <li>In addition applicants would normally be expected to have achieved English or Welsh language, Mathematics to a minimum of C at GCSE.</li>
+      </ul>
+	  <p><strong>Selection Procedures</strong></p>
+	  <ul>
+	    <li>Offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work. Programme Co-ordinators will interview prospective students. </li>
+	    <li>Mature applicants with relevant prior experience are welcome and are considered on an individual basis. </li>
+	    <li>International students will be interviewed by video conferencing. </li>
+	    <li>At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme.</li>
+	    <li>Academic certificates and relevant documentation will be checked before unconditional acceptance. Successful applicants will be accepted either conditionally or unconditionally, depending on whether they fulfil the academic requirements.</li>
+	  </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Darkroom Photography</li>
+	    <li>Digital Photography</li>
+	    <li>Portrait Photography</li>
+	    <li>Location Photography</li>
+	    <li>Studio Photography</li>
+	    <li>Live Projects and Competition</li>
+	    <li>Major Project</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+	  <ul>
+	    <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>The School and each of the programmes has a pro-active approach to encouraging personal professional development, through portfolio building, career skills development, and includes initiatives linked to entrepreneurialship, for example during the second and third years, you will be encouraged to participate in competitions and exhibitions as part of your programme.</li>
+	    <li>You will be taught to write professional CV&rsquo;s, Artists Statements, applications for residencies etc. The Photography programme has many former graduates who have developed careers across a wide spectrum of activities and image-based industries, for recognised employers and as freelance photographers. </li>
+	    <li>There is potential for further study at post-graduate level in Photography and the visual arts sector:
+	      <ul>
+	        <li>Fashion Photographer</li>
+	        <li>Documentary Photographer</li>
+	        <li>Photo Journalism</li>
+	        <li>Advertising Photographer</li>
+	        <li>Stills Photographer for film and television</li>
+	        <li>Wildlife / Landscape Photographer</li>
+	        <li>Fine Art Photographer</li>
+	        <li>Lecturer</li>
+	        <li>Related postgraduate study.</li>
+          </ul>
+        </li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <LI>Small class sizes in all modules</LI>
+	    <LI>Access to excellent facilities and equipment </LI>
+	    <LI>Strong vocational relevance and links with employers </LI>
+	    <LI>Regular educational visits to exhibitions and events </LI>
+	    <LI>Opportunities to pursue your own areas of interest </LI>
+	    <LI>Final year major project on your subject choice </LI>
+      </ul>
+	  <p>&nbsp;</p>
+    
+    </div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="textiles">
+	<div data-role="header">
+		<h1>Textiles: Art, Design, Craft</h1>
+	</div>
+	<div data-role="content">
+	  <p>Coleg Sir Gar - Carmarthenshire College has an established reputation for facilitating the creative development of art and design students.</p>
+	  <p>This new course has evolved in response to contemporary art and design practice, culture and industry. This programme allows students the opportunity to work in constructed textiles or surface decoration or to combine both areas of study. The course encourages creativity and innovation in a vibrant, enthusiastic and friendly working environment. Students are treated as individuals with dedicated studio areas to encourage and develop existing strengths, explore new skills and discover personal potential. Students will be given opportunities to explore weave, knit, tuft, felt, print, stitch, drawing and digital as an introductory knowledge and experimental base for their work. Students will be encouraged to develop entrepreneurial skills by engaging in live projects and national / international competitions. Students will be provided with the opportunity to experience a range of speColeg Sir Garms in a variety of contexts including fashion fabrics, designer/maker, accessories, textiles for interiors and textiles art. </p>
+	  <p>Practice is supported by an integrated theory programme enabling students to work confidently and professionally within the context of textiles. </p>
+	  <p>The School of Creative Arts, provides a friendly and supportive environment for students to explore their options and develop their individual style and potential.</p>
+	  <p><strong>Award</strong></p>
+	  <ul>
+	    <li>BA Honours</li>
+      </ul>
+	  <p><strong>UCAS Code</strong></p>
+	  <ul>
+	    <li>W232</li>
+      </ul>
+	  <p><strong>Language Choice</strong></p>
+	  <ul>
+	    <li>English</li>
+      </ul>
+	  <p><strong>Course Length</strong></p>
+	  <ul>
+	    <li>3 years full-time; part-time study available</li>
+      </ul>
+	  <p><strong>Entry Requirements</strong></p>
+	  <ul>
+	    <li>Tariff Score Points 120</li>
+	    <li>In addition applicants would normally be expected to have achieved English or Welsh language, Mathematics to a minimum of C at GCSE.</li>
+	  </ul>
+	  <p><strong>Selection Procedure</strong></p>
+	  <ul>
+	    <li> Offers will be made based on UCAS application predicted grades, reference and interview. On receipt of the UCAS application students will be invited for interview where they would usually be expected to present a portfolio of art work. Programme co-ordinators will interview prospective students. </li>
+	    <li>Mature applicants with relevant prior experience are welcome and are considered on an individual basis. </li>
+	    <li>International students will be interviewed by video conferencing.</li>
+	    <li> At interview the candidate will give evidence of current experience and reasons for undertaking undergraduate study. He/she must demonstrate at interview that he/she is academically and technically/practically capable of completing and benefiting from the programme. Academic certificates and relevant documentation will be checked before unconditional acceptance. Successful applicants will be accepted either conditionally or unconditionally, depending on whether they fulfil the academic requirements.</li>
+      </ul>
+	  <p><strong>Typical Modules</strong></p>
+	  <ul>
+	    <li>Traditional Design Methods</li>
+	    <li>Digital Design Processes</li>
+	    <li>Woven Textiles</li>
+	    <li>Knitted Textiles</li>
+	    <li>Printing and Dyeing Processes</li>
+	    <li>Stitch &amp; Embellishment</li>
+	    <li>Surface Decoration</li>
+	    <li>Live Projects and Competitions</li>
+      </ul>
+	  <p><strong>Department</strong></p>
+	  <ul>
+	    <li>School of Creative Arts</li>
+      </ul>
+	  <p><strong>Campus</strong></p>
+	  <ul>
+	    <li>Jobs Well</li>
+      </ul>
+	  <p><strong>Career Opportunities</strong></p>
+	  <ul>
+	    <li>The school and each of the programmes has a pro-active approach to encouraging personal professional development through portfolio building, career skills development, and includes initiatives linked to entrepreneurialship.  For example, during the second and third years, students are encouraged to participate in competitions and exhibitions as part of the programme. Students are taught to write professional CVs, artists statements, applications for residencies and so on. </li>
+	    <li>The Textiles: Art, Design, Craft programme has many former graduates who have developed careers across a wide spectrum of activities and industries, for recognised employers and as self-employed practitioners. </li>
+	    <li>There is potential for further study at post-graduate level in textiles and the visual arts sector. Art exhibition or installation work, design - freelance or in-house, craft - designer/maker, community artist, primary or secondary teaching, art therapy.</li>
+      </ul>
+	  <p><strong>Key Features</strong></p>
+	  <ul>
+	    <LI>Small class sizes in all modules </LI>
+	    <LI>Access to excellent facilities and equipment </LI>
+	    <LI>Strong vocational relevance and links with employers </LI>
+	    <LI>Regular educational visits to exhibitions and events </LI>
+	    <LI>Opportunities to pursue your own areas of interest </LI>
+	    <LI>Final year major project on your subject choice	</LI>
+	  </ul>
+	</div>
+	<div data-role="footer">
+		<li><a href="#creativeArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="performingArtsUndergradCourses">
+	<div data-role="header">
+		<h1>School of Performing Arts: Undergraduate Courses</h1>
+	</div>
+	<div data-role="content">	
+		<li><a href="#acting">Acting</a></li>	
+        <li><a href="#theatreDesign">Theatre Design and Production</a></li>
+        <li><a href="#academy">Wales International Academy of Voice</a></li>
+        <li><a href="#workBasedLearning">Work Based Learning</a></li>
+	</div>
+	<div data-role="footer">
+		<li><a href="#page8.3">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="acting">
+	<div data-role="header">
+		<h1>Acting</h1>
+	</div>
+	<div data-role="content">
+      <p>BA Acting is an innovative and exciting undergraduate programme designed for those students with aspirations towards a career in the performance industry. The degree carefully balances vocational actor training with contextual study and the creative exploration of performance theory. The range of transferable and presentational skills is significant and applicable in a range of employment contexts.</p>
+      <p>BA Acting students will follow an intensive programme of practical study which blends the acquisition of performance skills with performance methodology and contextual studies.</p>
+      <p>The first year concentrates on the student&rsquo;s development as a performer, with modules in voice, movement and dance, acting and devising, whilst the second year tests these skills in a variety of theatrical genres and contexts. The final year is entirely production-based with a series of public productions culminating in a final performance project and e.showcase.</p>
+      <p><strong>Award</strong></p>
+      <ul>
+        <li>BA (Single Honours)</li>
+      </ul>
+      <p><strong>UCAS Code</strong></p>
+      <ul>
+        <li>W410</li>
+      </ul>
+      <p><strong>Language Choice</strong></p>
+      <ul>
+        <li>English</li>
+      </ul>
+      <p><strong>Course Length</strong></p>
+      <ul>
+        <li>3-years full time</li>
+      </ul>
+      <p><strong>Entry Requirements</strong></p>
+      <p>You will be invited to visit the University to audition. Entry is based on individual merit.</p>
+      <p><strong>Typical Modules</strong></p>
+      <ul>
+        <li>Voice</li>
+        <li>Musical Performance</li>
+        <li>Acting</li>
+        <li>Improvisation and Devising</li>
+        <li>Movement</li>
+        <li>Theatre Styles</li>
+        <li>Performing Shakespeare</li>
+        <li>Popular Song and Dance</li>
+        <li>Touring Theatre</li>
+        <li>Site-specific Theatre</li>
+        <li>Main-house Performance</li>
+        <li>Performance Industry</li>
+      </ul>
+      <p><strong>Department</strong></p>
+      <ul>
+        <li>School of Performing Arts</li>
+      </ul>
+      <p><strong>Campus</strong></p>
+      <ul>
+        <li>Carmarthen Campus</li>
+      </ul>
+      <p><strong>Career Opportunities</strong></p>
+      <ul>
+        <li>Acting</li>
+        <li>Corporate Role Play and Training</li>
+        <li>Applied Drama</li>
+        <li>Education</li>
+        <li>Postgraduate study/research</li>
+      </ul>
+      <p><strong>Key Features</strong></p>
+      <ul>
+        <li>Graduate student productions at the University and on tour</li>
+        <li>Study abroad available in the USA</li>
+        <li>Professional directors and other theatre practitioners are regular contributors to the course</li>
+        <li>Touring theatre companies visit the University regularly</li>
+        <li>Theatre visits to major UK theatres to enhance your knowledge and experience</li>
+        <li>Rigorous training, practical study, a supportive atmosphere and personal attention</li>
+        <li>Excellent facilities including a 375-seat Halliwell Theatre with its accompanying studios and workshops</li>
+        <li>Opportunities to work with professional theatre companies and practitioners in order to develop your skills and career prospects</li>
+        <li>Extensive team or theatre professionals work within the School as directors, designers, and specialist tutors</li>
+      </ul>
+	</div>
+	<div data-role="footer">
+		<li><a href="#performingArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+
+<div data-role="page" id="theatreDesign">
+	<div data-role="header">
+		<h1>Theatre Production and Design</h1>
+	</div>
+	<div data-role="content">
+      <p>BA Theatre Design and Production is now firmly established as a leading programme in the training of designers, scenic artists, stage managers and technicians. Its pyramid structure builds upon a broad foundation of production skills in areas such as costume, stage management, scenic construction and scenic art.</p>
+      <p>The second year concentrates on the application of these skills in a variety of design contexts before students specialise in a particular discipline for an entirely production-based final year. The principle of developing graduates skilled in more than one area, with a firm foundation in the methodology of theatre-making is central to the teaching.</p>
+      <p>Work placement modules in the final year have increasingly led to employment opportunities and graduates are currently working in a range of theatres from small-scale touring companies to large-scale opera companies.</p>
+      <p><strong>Award</strong></p>
+      <ul>
+        <li>BA (Single Honours)</li>
+      </ul>
+      <p><strong>UCAS Code</strong></p>
+      <ul>
+        <li>W460</li>
+      </ul>
+      <p><strong>Language Choice</strong></p>
+      <ul>
+        <li>English</li>
+      </ul>
+      <p><strong>Course Length</strong></p>
+      <ul>
+        <li>3 years full-time</li>
+      </ul>
+      <p><strong>Entry Requirements</strong></p>
+      <ul>
+        <li>You will be invited to visit the University to discuss the course. Entry is based on individual merit.</li>
+      </ul>
+      <p><strong>Typical Modules</strong></p>
+      <ul>
+        <li>Scenic Construction</li>
+        <li>Stage Management</li>
+        <li>Constume and Props</li>
+        <li>Model-making and Scenic Art</li>
+        <li>Lighting and Sound</li>
+        <li>Design Principles</li>
+        <li>Design Process</li>
+        <li>Design Realisation</li>
+        <li>Staging the Action</li>
+        <li>Individual Theatre Practice</li>
+        <li>Touring Theatre</li>
+        <li>Site-specific Theatre</li>
+        <li>Main-house Theatre</li>
+        <li>Exhibition and Portfolio      </li>
+      </ul>
+      <p><strong>Department</strong></p>
+      <ul>
+        <li>School of Performing Arts</li>
+      </ul>
+      <p><strong>Campus</strong></p>
+      <ul>
+        <li>Carmarthen Campus</li>
+      </ul>
+      <p><strong>Career Opportunities</strong></p>
+      <ul>
+        <li>Theatre Design</li>
+        <li>Theatre Technician</li>
+        <li>Scenic Construction</li>
+        <li>Stage Management</li>
+        <li>Wardrobe Supervisor</li>
+        <li>Events Management</li>
+        <li>Postgraduate study/research      </li>
+      </ul>
+      <p><strong>Key Features</strong></p>
+      <ul>
+        <LI>A fully equipped professional theatre - the Halliwell Theatre and its adjoining workshops, studios, wardrobe department, props department, scenic construction and paint workshop</LI>
+        <LI>Appropriate technical facilities for professional theatre training</LI>
+        <LI>Productions and projects at the University and on tour</LI>
+        <LI>Study abroad available in the USA</LI>
+        <LI>Professional directors and specialist theatre professionals are regular contributors to the course</LI>
+        <LI>Touring theatre companies visit the University regularly</LI>
+        <LI>Visits to major UK theatres to enhance your knowledge and experience</LI>
+        <LI>Graduates are extremely well prepared for work in a range of theatre contexts including small-scale touring, community theatre arts and the collaborative arts in general</LI>
+        <LI>Excellent facilities including the 375-seat Halliwell Theatre with its accompanying studios and workshops</LI>
+        <LI>Opportunities for performance and production</LI>
+        <LI>Specialist theatre professionals are regular contributors to the programme as visiting tutors</LI>
+      </ul>
+      <p>&nbsp;</p>
+	</div>
+	<div data-role="footer">
+		<li><a href="#performingArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="academy">
+	<div data-role="header">
+		<h1>Wales International Academy of Voice</h1>
+	</div>
+	<div data-role="content">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+  </div>
+	<div data-role="footer">
+		<li><a href="#performingArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+<div data-role="page" id="workBasedLearning">
+	<div data-role="header">
+		<h1>Work-based Learning</h1>
+	</div>
+	<div data-role="content">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+  </div>
+	<div data-role="footer">
+		<li><a href="#performingArtsUndergradCourses">Return</a></li>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
